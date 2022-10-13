@@ -1,0 +1,84 @@
+:root {
+    --app-background: #fff;
+    --app-font-family: 'Noto Sans', sans-serif;
+    --app-font-size: 16px;
+    --app-text: #000000;
+    --background-primary: #111111;
+    --color-primary: #ffffff;
+    --background-secondary: #A1B6DB;
+    --color-secondary: #ffffff;
+    --color-disabled: #b6b2b2;
+    --color-input-border: #1b1b1b;
+}
+
+.dark_mode {
+    --background-primary: #808080;
+    --color-primary: #ffffff;
+    --app-background: #111111;
+    --app-text: #fff;
+}
+
+.Header {
+    padding: 5px;
+    display: flex;
+    justify-content: space-between;
+    background-color: var(--background-primary);
+    color: var(--color-primary);
+    font-family: "Noto Sans", sans-serif;
+    font-size: 16px;
+}
+
+.navBar {
+    display: flex;
+    justify-content: space-between;
+    padding: 4px;
+    align-items: baseline;
+    width: 820px;
+    background-color: var(--background-primary);
+    color: var(--color-primary);
+    font-family: "Noto Sans", sans-serif;
+    font-size: 16px;
+}
+
+.Wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--app-background);
+}
+
+#Container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: 5px solid var(--background-primary);
+    width: 820px;
+    margin-top: 75px;
+    color: var(--app-text);
+}
+
+#CSVcontent {
+    height: 500px;
+    overflow: scroll;
+    background-color: var(--app-background);
+}
+
+.tableRow {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#tableHeader {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    background-color: var(--background-secondary);
+}
+
+.cell {
+    display: flex;
+    padding: 10px;
+    width: 60px;
+    border: 1px solid var(--background-primary);
+}
